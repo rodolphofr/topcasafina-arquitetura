@@ -1,3 +1,11 @@
 #panels-about-us {
     margin-top: 20px;
 }
+
+.title-testimony {
+    background-color: #0275D8;
+    font-size: 24px;
+    padding: 20px 0;
+    color: #fff;
+    margin-bottom: 0;
+}
