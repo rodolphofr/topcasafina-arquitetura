@@ -9,3 +9,13 @@
     color: #fff;
     margin-bottom: 0;
 }
+
+.select-contact, .radio-group {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.radio-group .radio:first-child {
+    margin-top: 0;
+}
