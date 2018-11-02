@@ -33,10 +33,12 @@
             </div>
         </nav>
 
-        <div class="topCasaFina-banner">
-            <h1>TopCasaFina Arquitetura</h1>
-            <p>Projetando sua casa dos sonhos desde 2000 A.C</p>
-            <a href="#contato" class="btn btn-primary btn-lg">Contate-nos agora</a>
+        <div class="container topCasaFina-bannerWrapper">
+            <div class="topCasaFina-banner">
+                <h1>TopCasaFina Arquitetura</h1>
+                <p>Projetando sua casa dos sonhos desde 2000 A.C</p>
+                <a href="#contato" class="btn btn-primary btn-lg">Contate-nos agora</a>
+            </div>
         </div>
 
     </header>
@@ -44,9 +46,10 @@
     <section id="sobre-nos" class="container">
 
         <h2>Sobre nós</h2>
-        <img class="img-responsive" src="assets/img/empresa.jpg">
+
+        <img class="img-responsive col-xs-12 col-sm-6" src="assets/img/empresa.jpg">
         
-        <div class="panel-group" id="panels-about-us">
+        <div class="panel-group col-xs-12 col-sm-6" id="panels-about-us">
 
             <div class="panel panel-default">
                 <div class="panel-heading" data-toggle="collapse" data-target="#desc1" data-parent="#panels-about-us">
@@ -85,7 +88,7 @@
 
     </section>
 
-    <div class="jumbotron">
+    <div class="jumbotron" id="premium-text">
         <div class="container">
             <h3>Mais de 300 prêmios em design em conforto.</h3>
             <p>Mais de 5 milhões de clientes satisfeitos em todo o mundo.</p>
@@ -95,45 +98,59 @@
     <section id="nossos-projetos" class="container">
         <h2>Nossos Projetos</h2> 
 
-        <figure class="thumbnail">
-            <img src="assets/img/projetos/casa-castelo.png" alt="Casa Castelo">
-            <figcaption class="caption">
-                <h3>Casa Castelo</h3>
-                <p>A Casa Castelo é o último lançamento da TopCasaFina Arquitetura, feito para um monge.</p>
-            </figcaption>
-        </figure>
+        <div class="row">
 
-        <figure class="thumbnail">
-            <img src="assets/img/projetos/casa-lago.png" alt="Casa Castelo">
-            <figcaption class="caption">
-                <h3>Casa Lago</h3>
-                <p>A Casa do Lago foi lar de ínumeras pessoas que conheciam o presidente da época.</p>
-            </figcaption>
-        </figure>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                    <img src="assets/img/projetos/casa-castelo.png" alt="Casa Castelo">
+                    <figcaption class="caption">
+                        <h3>Casa Castelo</h3>
+                        <p>A Casa Castelo é o último lançamento da TopCasaFina Arquitetura, feito para um monge.</p>
+                    </figcaption>
+                </figure>
+            </div>
 
-        <figure class="thumbnail">
-            <img src="assets/img/projetos/mercado-marapira.png" alt="Casa Castelo">
-            <figcaption class="caption">
-                <h3>Mercado Marapira</h3>
-                <p>O mercado Marapira foi projetado nos mínimos detalhes na arquitetura baseada em frutas.</p>
-            </figcaption>
-        </figure>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                    <img src="assets/img/projetos/casa-lago.png" alt="Casa Castelo">
+                    <figcaption class="caption">
+                        <h3>Casa Lago</h3>
+                        <p>A Casa do Lago foi lar de ínumeras pessoas que conheciam o presidente da época.</p>
+                    </figcaption>
+                </figure>
+            </div>
 
-        <figure class="thumbnail">
-            <img src="assets/img/projetos/palacio-dionisio.png" alt="Casa Castelo">
-            <figcaption class="caption">
-                <h3>Palácio Dionísio</h3>
-                <p>O Palácio Dionísio foi eleito pela revista 'Grandes palácios' como o palco mais lindo do mundo.</p>
-            </figcaption>
-        </figure>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                    <img src="assets/img/projetos/mercado-marapira.png" alt="Casa Castelo">
+                    <figcaption class="caption">
+                        <h3>Mercado Marapira</h3>
+                        <p>O mercado Marapira foi projetado nos mínimos detalhes na arquitetura baseada em frutas.</p>
+                    </figcaption>
+                </figure>
+            </div>
 
-        <figure class="thumbnail">
-            <img src="assets/img/projetos/residencia-ludi.png" alt="Casa Castelo">
-            <figcaption class="caption">
-                <h3>Residencial Ludi</h3>
-                <p>A residênia Ludi foi projetada para ser a mais bela casa de São Paulo pela revista Housing.</p>
-            </figcaption>
-        </figure>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                    <img src="assets/img/projetos/palacio-dionisio.png" alt="Casa Castelo">
+                    <figcaption class="caption">
+                        <h3>Palácio Dionísio</h3>
+                        <p>O Palácio Dionísio foi eleito pela revista 'Grandes palácios' como o palco mais lindo do mundo.</p>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                    <img src="assets/img/projetos/residencia-ludi.png" alt="Casa Castelo">
+                    <figcaption class="caption">
+                        <h3>Residencial Ludi</h3>
+                        <p>A residênia Ludi foi projetada para ser a mais bela casa de São Paulo pela revista Housing.</p>
+                    </figcaption>
+                </figure>
+            </div>
+
+        </div>
         
     </section>
 
@@ -194,54 +211,61 @@
         </div>
     </section>
 
-    <section id="video" class="container">
-        <h2>Vídeo institucional</h2>
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/J4rBDsimsmQ" frameborder="0" allowfullscreen></iframe>
+    <div class="container">
+        <div class="row">
+
+            <section id="video" class="col-sm-6">
+                <h2>Vídeo institucional</h2>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/J4rBDsimsmQ" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </section>
+
+            <section id="contato" class="col-sm-6">
+                <h2>Contato</h2>
+                <h4>Entre em contato conosco</h4>
+        
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nome:</label>
+                        <input class="form-control" type="text" id="name" placeholder="Seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">@</div>
+                            <input class="form-control" type="email" id="email" placeholder="Seu e-mail">
+                        </div>
+                    </div>
+        
+                    <div class="radio-group">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="acquirer" checked> Pessoa física
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="acquirer"> Pessoa jurídica
+                            </label>
+                        </div>
+                    </div><!--
+        
+                    --><select class="select-contact form-control" name="request">
+                        <option disabled selected>Tipo de solicitação</option>
+                        <option>Casa</option>
+                        <option>Mansão</option>
+                        <option>Castelo</option>
+                    </select>
+                    
+                    <input class="btn btn-primary" type="submit" value="Enviar">
+                    
+                </form>
+            </section>
+
         </div>
-    </section>
+    </div>
 
-    <section id="contato" class="container">
-        <h2>Contato</h2>
-        <h4>Entre em contato conosco</h4>
-
-        <form>
-            <div class="form-group">
-                <label for="name">Nome:</label>
-                <input class="form-control" type="text" id="name" placeholder="Seu nome">
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <div class="input-group">
-                    <div class="input-group-addon">@</div>
-                    <input class="form-control" type="email" id="email" placeholder="Seu e-mail">
-                </div>
-            </div>
-
-            <div class="radio-group">
-                <div class="radio">
-                    <label>
-                        <input type="radio" name="acquirer" checked> Pessoa física
-                    </label>
-                </div>
-                <div class="radio">
-                    <label>
-                        <input type="radio" name="acquirer"> Pessoa jurídica
-                    </label>
-                </div>
-            </div><!--
-
-            --><select class="select-contact form-control" name="request">
-                <option disabled selected>Tipo de solicitação</option>
-                <option>Casa</option>
-                <option>Mansão</option>
-                <option>Castelo</option>
-            </select>
-            
-            <input class="btn btn-primary" type="submit" value="Enviar">
-            
-        </form>
-    </section>
 
     <footer>
         <address>
